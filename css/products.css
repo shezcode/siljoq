@@ -48,6 +48,14 @@ hr {
   flex: 1;
 }
 
+.main__product--filter--checkbox {
+  padding: 0.5em;
+}
+
+.main__product--filter--checkbox:hover {
+  cursor: pointer;
+}
+
 select {
   font-weight: bold;
   padding: 0.5em;
@@ -249,6 +257,7 @@ input {
   hr {
     margin-bottom: 1em;
   }
+
 
   .main__product--filter {
     display: flex;

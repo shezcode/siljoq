@@ -444,7 +444,6 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 2em;
-    border: 2px solid red;
     width: 60%;
     align-items: start;
     justify-content: space-between;
@@ -551,4 +550,34 @@ footer {
   h4 {
     font-size: x-small;
   }
+
+  footer {
+    flex-direction: column;
+    width: 100%;
+    padding: 0.5em;
+  }
+
+  .footer__links {
+    width: 100%;
+  }
+
+  .footer__links ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  .footer__newsletter {
+    width: 100%;
+  }
+
+  .footer__right {
+    width: 100%;
+  }
+
+  .footer__socials {
+    width: 100%;
+    text-align: center;
+  }
+
 }
