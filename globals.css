@@ -27,14 +27,14 @@ body {
 }
 
 a {
-  color: var(--lighter-dark);
+  color: var(--main-text-color);
   font-family: var(--text-font);
   font-weight: 600;
   text-transform: uppercase;
 }
 
 a:visited {
-  color: var(--main-text-color);
+  color: var(--sec-text-color);
 }
 
 a:hover {
