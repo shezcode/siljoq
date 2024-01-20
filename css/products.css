@@ -1,0 +1,375 @@
+.main__product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  gap: 2em;
+  width: 100%;
+}
+
+.main__product--title {
+  color: transparent;
+  text-align: 0 1px 1px;
+  -webkit-text-stroke: 1px #fff;
+  align-self: center;
+  font-size: 22px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.main__product section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+  gap: 2em;
+  font-size: 14px;
+  width: 100%;
+}
+
+hr {
+  margin-bottom: 1em;
+}
+
+.main__product--filter {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.main__product--filter--categories {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+}
+
+select {
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+input {
+  accent-color: var(--sec-yellow);
+  padding: 4em;
+}
+
+.main__product--right {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  max-width: 600px;
+  width: 100%;
+}
+
+.main__product--pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5em;
+  padding: 1em 0;
+  width: 100%;
+}
+
+.main__product--pagination--el {
+  padding: 0.5em;
+  background-color: var(--main-text-color);
+  color: var(--lighter-dark);
+  box-shadow: #41cffac2 3px 3px, #165bfbc2 6px 6px;
+  border-radius: 6px;
+  font-style: italic;
+}
+
+.main__product--pagination--el:hover {
+  cursor: pointer;
+}
+
+.main__product--grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  gap: 1em;
+  width: 100%;
+}
+
+.main__product--grid--el {
+  height: 200px;
+  background-color: var(--lighter-dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: 0.3s all ease-in-out;
+  padding: 0.5em;
+  border-radius: 12px;
+}
+
+.main__product--grid--el:hover {
+  transform: scale(105%);
+  color: var(--primary-color);
+}
+
+.main__product--grid--text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.5em;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 0 12px 12px;
+}
+
+.main__product--grid--text--header {
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__product--grid--text--header svg:hover {
+  cursor: pointer;
+  color: var(--secondary-color);
+}
+
+.prev-price {
+  text-decoration: line-through;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.discount-price {
+  color: var(--sec-yellow);
+  font-weight: bold;
+  font-size: large;
+}
+
+.main__product--grid--el:nth-child(1) {
+  background: url(/assets/totebag_mockup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main__product--grid--el:nth-child(2) {
+  background: url(/assets/hoodie_mockup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.main__product--grid--el:nth-child(3) {
+  background: url(/assets/bottle_mockup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.main__product--grid--el:nth-child(4) {
+  background: url(/assets/coffeecup_mockup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.main__product--grid--el:nth-child(5) {
+  background: url(/assets/cosmetic_mockup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.main__product--grid--el:nth-child(6) {
+  background: url(/assets/tshirt_mockup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.main__product--grid--el:nth-child(7) {
+  background: url(/assets/iphone_mockup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.main__product--grid--el:nth-child(8) {
+  background: url(/assets/watch_mockup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.main__product--grid--el:nth-child(9) {
+  background: url(/assets/sweater_mockup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .main__product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .main__product--title {
+    width: 100%;
+    font-size: 36px;
+    font-style: italic;
+    text-transform: uppercase;
+    align-self: flex-start;
+    padding-left: 1em;
+    padding-top: 1em;
+  }
+
+  .main__product section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    gap: 2em;
+  }
+
+  hr {
+    margin-bottom: 1em;
+  }
+
+  .main__product--filter {
+    display: flex;
+    flex-direction: column;
+    align-self: self-start;
+    gap: 2em;
+    padding: 2em;
+    max-width: 300px;
+  }
+
+  .main__product--filter--categories {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  select {
+    background-color: var(--sec-text-color);
+    color: var(--lighter-dark);
+    border: none;
+    font-weight: bold;
+    padding: 0.5em;
+    border-radius: none;
+  }
+
+  input {
+    accent-color: var(--sec-yellow);
+  }
+
+  .main__product--right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .main__product--pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 0.5em;
+    padding: 1em;
+    width: 100%;
+  }
+
+  .main__product--pagination--el {
+    padding: 0.5em 1em;
+    background-color: var(--main-text-color);
+    color: var(--lighter-dark);
+    box-shadow: #41cffac2 3px 3px, #165bfbc2 6px 6px;
+    border-radius: 6px;
+    font-style: italic;
+  }
+
+  .main__product--pagination--el:hover {
+    cursor: pointer;
+  }
+
+  .main__product--grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    gap: 1.5em;
+    padding: 1em;
+    width: 100%;
+  }
+
+  .main__product--grid--el {
+    background-color: var(--lighter-dark);
+    height: 300px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.3s all ease-in-out;
+  }
+
+  .main__product--grid--el:hover {
+    transform: scale(105%);
+    color: var(--primary-color);
+  }
+
+  .main__product--grid--text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.5em;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .main__product--grid--text--header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .main__product--grid--text--header svg:hover {
+    cursor: pointer;
+    color: var(--secondary-color);
+  }
+
+  .prev-price {
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-style: italic;
+  }
+
+  .discount-price {
+    font-weight: bold;
+    font-size: large;
+  }
+}
