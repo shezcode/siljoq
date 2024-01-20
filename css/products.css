@@ -155,62 +155,62 @@ input {
 }
 
 .main__product--grid--el:nth-child(1) {
-  background: url(/assets/totebag_mockup.jpg);
+  background: url(../assets/totebag_mockup.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .main__product--grid--el:nth-child(2) {
-  background: url(/assets/hoodie_mockup.jpg);
+  background: url(../assets/hoodie_mockup.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
 }
 
 .main__product--grid--el:nth-child(3) {
-  background: url(/assets/bottle_mockup.jpg);
+  background: url(../assets/bottle_mockup.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
 }
 
 .main__product--grid--el:nth-child(4) {
-  background: url(/assets/coffeecup_mockup.jpg);
+  background: url(../assets/coffeecup_mockup.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
 }
 
 .main__product--grid--el:nth-child(5) {
-  background: url(/assets/cosmetic_mockup.jpg);
+  background: url(../assets/cosmetic_mockup.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
 }
 
 .main__product--grid--el:nth-child(6) {
-  background: url(/assets/tshirt_mockup.jpg);
+  background: url(../assets/tshirt_mockup.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
 }
 
 .main__product--grid--el:nth-child(7) {
-  background: url(/assets/iphone_mockup.jpg);
+  background: url(../assets/iphone_mockup.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
 }
 
 .main__product--grid--el:nth-child(8) {
-  background: url(/assets/watch_mockup.jpg);
+  background: url(../assets/watch_mockup.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
 }
 
 .main__product--grid--el:nth-child(9) {
-  background: url(/assets/sweater_mockup.jpg);
+  background: url(../assets/sweater_mockup.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
