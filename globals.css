@@ -323,6 +323,10 @@ footer {
   padding-top: 12px;
 }
 
+.footer__socials--icons:hover {
+  cursor: pointer;
+}
+
 .icon-container {
   background-color: #121212;
   border-radius: 12px;
