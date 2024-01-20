@@ -1,14 +1,11 @@
 {
   "dependencies": {
-    "swiper": "^11.0.5",
-    "webpack": "^5.89.0",
-    "webpack-cli": "^5.1.4"
+    "swiper": "^11.0.5"
   },
   "name": "siljoq",
   "version": "1.0.0",
   "description": "siljoq landing",
   "private": "true",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
