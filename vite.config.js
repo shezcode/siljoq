@@ -1,7 +1,13 @@
 // vite.config.js
-export default {
+import { defineConfig } from 'vite'
+
+export default defineConfig({
   build: {
-    outDir: 'dist', // This is where the build output will go
+    rollupOptions: {
+      input: {
+        main: './index.html',         // Main entry point (index.html)
+        products: './products.html',  // Additional entry point (products.html)
+      },
+    },
   },
-  root: '.', // Set your project root directory
-};
+})
